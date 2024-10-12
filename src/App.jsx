@@ -8,7 +8,11 @@ import Singin from "./Pages/Singin";
 import Routing from "./Pages/Routing";
 import  { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
-
+import PageNotfound from "./PageNotfound";
+import Products from "./Pages/Products";
+import Men from "./Pages/Men";
+import Kids from "./Pages/Kids";
+import Women from "./Pages/Women";
 function App() {
   return (
     <div>
@@ -19,6 +23,11 @@ function App() {
         <Route path="/" element={<MainComponent />} />
         <Route path="/singup" element={<Singup />} />
         <Route path="/singin" element={<Singin />} />
+        <Route path="*" element={<PageNotfound/>} /> 
+        <Route path="/product" element={<Products/>} />
+        <Route path="/men" element={<Men/>} />
+        <Route path="/kids" element={<Kids/>}/>
+        <Route path="/women" element={<Women/>}/>
         {/* <Route path="/"
         element={
           <Routing>

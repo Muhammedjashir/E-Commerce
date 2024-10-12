@@ -3,15 +3,19 @@ import Navbar from "./Navbar";
 import Login from "../Pages/Singin";
 import Register from "../Pages/Singup";
 import { Routes, Route } from "react-router-dom";
-import Images from "../Pages/Images";
+import Home from "../Pages/Home";
 import axios from 'axios'
 
+
+
 function MainComponent() {
+  
   return (
     <div>
       <Navbar />
       <div>
-<Images/>
+<Home/>
+
       </div>
     </div>
   );
