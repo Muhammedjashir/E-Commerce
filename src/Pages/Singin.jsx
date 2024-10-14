@@ -7,7 +7,7 @@ import { ToastContainer, toast } from 'react-toastify';
 function Singin() {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
-    email: '',
+    email:'',
     password: '',
   });
 
