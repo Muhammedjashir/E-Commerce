@@ -94,8 +94,9 @@ const Navbar = () => {
             name="search"
             onChange={OnChange}
             placeholder="Search"
-            
+              
           />     
+         
           {/* <div>
             {
             data.map((e)=>{
