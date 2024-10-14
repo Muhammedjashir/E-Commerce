@@ -41,7 +41,7 @@ function Signup() {
         toast.success('Signup successful! Please Singin.');
         navigate('/singin'); 
       })
-      .catch((error) => {
+      .catch((error) =>{
         console.error('Signup Error:', error);
         toast.error('Signup failed. Please try again.');
       });
