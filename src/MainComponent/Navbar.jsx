@@ -97,7 +97,7 @@ const Navbar = () => {
               
           />     
          
-          {/* <div>
+          {/* <div >
             {
             data.map((e)=>{
               return(
